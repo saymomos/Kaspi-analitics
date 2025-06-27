@@ -1,0 +1,179 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Аналитика Kaspi-магазина</title>
+  <link href="https://fonts.googleapis.com/css2?family=Manrope:wght@400;600;800&display=swap" rel="stylesheet">
+  <style>
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+      font-family: 'Manrope', sans-serif;
+    }
+    body {
+      background-color: #f9f9f9;
+      color: #333;
+    }
+    header {
+      background-color: #fff;
+      padding: 40px 20px;
+      text-align: center;
+      border-bottom: 1px solid #eee;
+    }
+    header h1 {
+      font-size: 2.5rem;
+      margin-bottom: 10px;
+    }
+    header p {
+      font-size: 1.1rem;
+      color: #666;
+    }
+    .btn {
+      display: inline-block;
+      margin: 15px 10px;
+      padding: 12px 25px;
+      background-color: #FF3E30;
+      color: #fff;
+      text-decoration: none;
+      border-radius: 8px;
+      transition: background-color 0.3s;
+    }
+    .btn:hover {
+      background-color: #cc3026;
+    }
+    .section {
+      max-width: 1000px;
+      margin: 50px auto;
+      padding: 0 20px;
+    }
+    .section h2 {
+      font-size: 2rem;
+      margin-bottom: 20px;
+      text-align: center;
+    }
+    .section p {
+      font-size: 1.1rem;
+      line-height: 1.6;
+      margin-bottom: 15px;
+    }
+    .prices {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 20px;
+      justify-content: center;
+    }
+    .card {
+      background-color: #fff;
+      border-radius: 12px;
+      padding: 20px;
+      width: 300px;
+      box-shadow: 0 4px 20px rgba(0,0,0,0.05);
+      transition: transform 0.3s;
+    }
+    .card:hover {
+      transform: translateY(-5px);
+    }
+    .card h3 {
+      font-size: 1.5rem;
+      margin-bottom: 10px;
+    }
+    .card ul {
+      list-style: none;
+      padding: 0;
+      margin-bottom: 15px;
+    }
+    .card ul li {
+      margin-bottom: 8px;
+      color: #555;
+    }
+    footer {
+      text-align: center;
+      padding: 30px;
+      background-color: #fff;
+      border-top: 1px solid #eee;
+      color: #999;
+    }
+    @media(max-width: 768px) {
+      header h1 {
+        font-size: 2rem;
+      }
+      .card {
+        width: 100%;
+      }
+    }
+  </style>
+</head>
+<body>
+
+  <header>
+    <h1>Аналитика Kaspi-магазина 2024–2025</h1>
+    <p>Эксклюзивные данные о продажах. Продавайте то, что покупают!</p>
+    <a href="#prices" class="btn">Посмотреть цены</a>
+    <a href="https://t.me/твой_telegram" class="btn">Заказать</a>
+  </header>
+
+  <section class="section">
+    <h2>Что внутри?</h2>
+    <p>✔️ Топ продаваемых товаров</p>
+    <p>✔️ Динамика цен и объёмов продаж</p>
+    <p>✔️ Сезонность и тренды по месяцам</p>
+    <p>✔️ Полные данные по категориям и подкатегориям</p>
+    <p>✔️ Уникальная информация, доступная только через головной офис Kaspi</p>
+  </section>
+
+  <section class="section">
+    <h2>Почему это важно?</h2>
+    <p>Получите конкурентное преимущество. Больше не нужно угадывать, какие товары продавать. Вы будете точно знать, какие категории пользуются спросом, когда запускать рекламу и как формировать закупки.</p>
+  </section>
+
+  <section class="section" id="prices">
+    <h2>Стоимость</h2>
+    <div class="prices">
+      <div class="card">
+        <h3>2024 год</h3>
+        <ul>
+          <li>✔️ Полные данные за весь 2024 год</li>
+          <li>✔️ Цены, объёмы, категории</li>
+          <li>✔️ Исторические тренды</li>
+        </ul>
+        <h3>250 000 ₸</h3>
+        <a href="https://t.me/твой_telegram" class="btn">Заказать</a>
+      </div>
+      <div class="card">
+        <h3>4 месяца 2025</h3>
+        <ul>
+          <li>✔️ Январь, февраль, апрель, май</li>
+          <li>✔️ Актуальные тренды и цены</li>
+          <li>✔️ Конкурентное преимущество</li>
+        </ul>
+        <h3>800 000 ₸</h3>
+        <a href="https://t.me/твой_telegram" class="btn">Заказать</a>
+      </div>
+      <div class="card">
+        <h3>Комплект</h3>
+        <ul>
+          <li>✔️ 2024 + 2025 (4 месяца)</li>
+          <li>✔️ Полная картина рынка</li>
+          <li>✔️ Индивидуальная цена</li>
+        </ul>
+        <h3>Договорная</h3>
+        <a href="https://t.me/твой_telegram" class="btn">Обсудить</a>
+      </div>
+    </div>
+  </section>
+
+  <section class="section">
+    <h2>Контакты</h2>
+    <p>Связаться для заказа или вопросов:</p>
+    <p>Telegram: <a href="https://t.me/твой_telegram">@твой_telegram</a></p>
+    <p>WhatsApp: <a href="https://wa.me/77000000000">+7 (700) 000-00-00</a></p>
+  </section>
+
+  <footer>
+    &copy; 2025 Kaspi Analytics. Все права защищены.
+  </footer>
+
+</body>
+</html>
